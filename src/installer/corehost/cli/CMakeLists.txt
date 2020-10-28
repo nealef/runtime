@@ -1,5 +1,7 @@
 if(RUNTIME_FLAVOR STREQUAL "Mono")
     add_subdirectory(hostcommon)
+    add_subdirectory(dotnet)
+    add_subdirectory(nethost)
     add_subdirectory(fxr)
     add_subdirectory(hostpolicy)
 else()
